@@ -1,0 +1,13 @@
+name: "my-website"
+output_dir: docs
+navbar:
+  title: "PPGIA-UFRPE"
+  left:
+    - text: "Início"
+      href: index.html
+    - text: "Sobre"
+      href: about.html
+    - text: "Catálogo de Métricas"
+      href: catalog.html
+      
+      
