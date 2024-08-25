@@ -1,0 +1,64 @@
+---
+title: "Sobre"
+output: 
+  html_document:
+    css: style.css
+    self_contained: true
+---
+
+<div class="container">
+
+  <p align="center">
+    ![](CATALOGO.jpg)
+  </p>
+  <br>
+<h2>Catálogo de Métricas para Desenvolvimento Ágil em Larga Escala</h2>
+
+
+<p>Este catálogo de métricas validadas tem por objetivo para orientar futuras pesquisas e práticas organizacionais no domínio do desenvolvimento ágil de software em larga escala. Ele é uma ferramenta útil para pesquisadores e profissionais envolvidos em projetos nesse âmbito, incluindo desenvolvedores, gerentes de projeto, profissionais ágeis e de garantia de qualidade.</p>
+
+<p>As tendências de utilização de métricas conectam-se as principais áreas beneficiadas em empresas que praticam ágil escalonado, tais como desempenho e colaboração entre as equipes e qualidade do produto. Além disso, grande parte das medições mostram forte influência na identificação de gargalos no fluxo de trabalho.</p>
+
+<h2>Visão Geral das Métricas</h2>
+
+<p>Métricas são medições, variáveis que quantificam propriedades de entidades que são mensuráveis.</p>
+
+<p>Este compilado é um refinamento após avaliação pelos profissionais do mercado da frequência de uso das métricas listadas no modelo Goal Question Metric derivado da revisão de literatura conduzida anteriormente sobre o tema [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). Dessa forma, a afirmação de utilização recorrente pelos participantes do survey sustenta uma maior probabilidade de eficácia e sucesso das medições selecionadas.</p>
+
+<p> Antes de exibir o catálogo, o modelo utilizado para apresentar as métricas será definido como um template na tabela a seguir, que contém os seguintes campos específicos: nome, id, descrição, fórmula de cálculo, etapa do ciclo de vida, popularidade na indústria, exemplos de aplicação e referências. O objetivo deste template é proporcionar uma estrutura clara para facilitar a identificação, compreensão e aplicação das métricas.</p>
+
+
+### Modelo utilizado para descrição de métricas ágeis
+
+| Atributo                         | Descrição                                                                                               |
+|----------------------------------|---------------------------------------------------------------------------------------------------------|
+| Nome                             | Nome da métrica.                                                                                       |
+| ID                               | Identificador único da métrica.                                                                        |
+| Descrição                        | Explicação detalhada do que a métrica mede.                                                             |
+| Fórmula de Cálculo               | Fórmula matemática ou lógica usada para calcular a métrica.                                              |
+| Etapa do Ciclo de Vida           | Etapa do Ciclo de Vida de Desenvolvimento de Software favorável para mensurar.                         |
+| Popularidade na Indústria        | Valor percentual que denota o grau de relevância da métrica de acordo com a avaliação de frequência de uso do survey. |
+| Exemplos de Aplicação            | Se acessível, exemplos práticos de como as métricas foram aplicadas em organizações de software.        |
+| Referências                      | Lista de fontes utilizadas para desenvolver o catálogo.                                                 |
+
+
+
+
+<br>
+  <a href=catalog.html class="button">Ver Catálogo</a>
+<br>
+<br>
+
+
+<!-- Seção de Contato -->
+<div>
+  <h2>Contatos</h2>
+  <div class="card">
+  <p><strong>Email:</strong> renato.vmenezes@ufrpe.br</p>
+  <p><strong>LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
+</div>
+
+</div>
+
+
+</div>
