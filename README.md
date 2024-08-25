@@ -1,2 +1,0 @@
-# metricas-para-desenvolvimento-agil-em-larga-escala
-Este site apresenta um catálogo de métricas validadas que tem por objetivo orientar futuras pesquisas e práticas organizacionais no domínio do desenvolvimento ágil de software em larga escala. Ele é uma ferramenta útil para pesquisadores e profissionais envolvidos em projetos nesse âmbito, incluindo desenvolvedores, gerentes de projeto, profissionais ágeis e de garantia de qualidade.
