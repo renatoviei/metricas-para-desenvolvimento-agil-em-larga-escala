@@ -15,7 +15,7 @@ output:
 <h2>Catálogo de Métricas para Desenvolvimento Ágil em Larga Escala</h2>
 
 
-<p>Este catálogo de métricas validadas tem por objetivo para orientar futuras pesquisas e práticas organizacionais no domínio do desenvolvimento ágil de software em larga escala. Ele é uma ferramenta útil para pesquisadores e profissionais envolvidos em projetos nesse âmbito, incluindo desenvolvedores, gerentes de projeto, profissionais ágeis e de garantia de qualidade.</p>
+<p>Este catálogo de métricas validadas por meio de survey no mercado de software brasileiro tem por objetivo orientar futuras pesquisas e práticas organizacionais no domínio do desenvolvimento ágil de software em larga escala. Ele é uma ferramenta útil para pesquisadores e profissionais envolvidos em projetos nesse âmbito, incluindo desenvolvedores, gerentes de projeto, profissionais ágeis e de garantia de qualidade.</p>
 
 <p>As tendências de utilização de métricas conectam-se as principais áreas beneficiadas em empresas que praticam ágil escalonado, tais como desempenho e colaboração entre as equipes e qualidade do produto. Além disso, grande parte das medições mostram forte influência na identificação de gargalos no fluxo de trabalho.</p>
 
@@ -23,7 +23,7 @@ output:
 
 <p>Métricas são medições, variáveis que quantificam propriedades de entidades que são mensuráveis.</p>
 
-<p>Este compilado é um refinamento após avaliação pelos profissionais do mercado da frequência de uso das métricas listadas no modelo Goal Question Metric derivado da revisão de literatura conduzida anteriormente sobre o tema [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). Dessa forma, a afirmação de utilização recorrente pelos participantes do survey sustenta uma maior probabilidade de eficácia e sucesso das medições selecionadas.</p>
+<p>Este compilado é um refinamento após avaliação de 145 profissionais do mercado da frequência de uso das métricas listadas no modelo Goal Question Metric derivado da revisão de literatura conduzida anteriormente sobre o tema [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). Dessa forma, a afirmação de utilização recorrente pelos participantes do survey sustenta uma maior probabilidade de eficácia e sucesso das medições selecionadas.</p>
 
 <p> Antes de exibir o catálogo, o modelo utilizado para apresentar as métricas será definido como um template na tabela a seguir, que contém os seguintes campos específicos: nome, id, descrição, fórmula de cálculo, etapa do ciclo de vida, popularidade na indústria, exemplos de aplicação e referências. O objetivo deste template é proporcionar uma estrutura clara para facilitar a identificação, compreensão e aplicação das métricas.</p>
 

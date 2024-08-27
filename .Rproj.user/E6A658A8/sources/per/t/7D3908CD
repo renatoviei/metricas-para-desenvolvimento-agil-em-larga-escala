@@ -3,7 +3,7 @@
     "path": "C:/Users/tm_re/Desktop/Mestrado/Dissertação/catalogo-de-metricas-digital-local/catalog.Rmd",
     "project_path": "catalog.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2503437536",
     "contents": "",
     "dirty": false,
     "created": 1724616786440.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "8,0",
-        "scrollLine": "0"
+        "cursorPosition": "439,41",
+        "scrollLine": "422"
     },
     "folds": "",
-    "lastKnownWriteTime": 1724623613,
+    "lastKnownWriteTime": 1724724966,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1724623613948,
+    "last_content_update": 1724724966253,
     "read_only": false,
     "read_only_alternatives": []
 }
