@@ -6,6 +6,8 @@ output:
     self_contained: true
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
 <div class="container">
 
   <p align="center">
@@ -54,8 +56,8 @@ output:
 <div>
   <h2>Contatos</h2>
   <div class="card">
-  <p><strong>Email:</strong> renato.vmenezes@ufrpe.br</p>
-  <p><strong>LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
+  <p><strong><i class="bi bi-envelope"></i> Email:</strong> renato.vmenezes@ufrpe.br</p>
+  <p><strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
 </div>
 
 </div>

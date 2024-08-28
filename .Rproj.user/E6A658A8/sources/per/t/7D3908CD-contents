@@ -6,6 +6,7 @@ output:
     self_contained: true
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 
 <div class="container">
 
@@ -16,7 +17,7 @@ output:
 <h2>Métricas</h2>
 
 
-<p>Esta página apresenta as 24 métricas do catálogo seguindo o template proposto. Elas estão categorizadas em subseções por cada meta de negócio identificada na modelagem (GQM) da pesquisa [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). As metas de negócio representam os objetivos nos quais as organizações ágeis de grande escala buscam alcançar e monitorar com a aplicação das métricas.</p>
+<p>Esta página apresenta as 71 métricas do catálogo seguindo o template proposto. Elas estão categorizadas em subseções por cada meta de negócio identificada na modelagem (GQM) da pesquisa [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). As metas de negócio representam os objetivos nos quais as organizações ágeis de grande escala buscam alcançar e monitorar com a aplicação das métricas.</p>
 
 <h2>Responsividade aos Clientes</h2>
 
@@ -67,7 +68,7 @@ projeto.
 - **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
 uma dimensão de medição de tempo de ciclo relacionada a negócio usada para
 o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária.
-Ao considera-la, foi possível obter feedback se os projetos estivessem começando a
+Ao considerá-la, foi possível obter feedback se os projetos estivessem começando a
 enfrentar desafios desnecessários por meio de métricas como esta (BROWN, 2011).
 
 <h4>Tempo gasto desde o início do projeto até o encerramento do projeto (Em inglês:
@@ -332,7 +333,7 @@ métrica importante para uma estrutura Scrum escalável.
 - **Referências:** (GREENING, 2015).
 
 
-<h4>Horizonte de previsão Em inglês (Forecast Horizon)</h4> 
+<h4>Horizonte de previsão (Em inglês: Forecast Horizon)</h4> 
 
 - **ID:** M014.
 
@@ -388,7 +389,7 @@ defeitos eram esperados serem descobertos.
 
 - **ID:** M016.
 
-- **Descrição:**
+- **Descrição:** Tempo de duração total da tarefa pela quantidade de funções da tarefa.
 
 - **Fórmula de Cálculo:** Tempo de duração da tarefa / Quantidade
 de funções da tarefa
@@ -439,7 +440,7 @@ segura de todas as tarefas após o teste.
 
 - **Popularidade na Indústria:**  68.96%.
 
-- **Exemplos de Aplicação:** Além das métricas nativas do SAFe, ‘índice de previsibilidade’ foi encontrada em uma
+- **Exemplos de Aplicação:** Além das métricas nativas do SAFe, ‘preparação para liberação’ foi encontrada em uma
 proposta para adicionar medição de qualidade ao seu monitoramento de fluxo em um ambiente DevOps.
 
 - **Referências:** (COPADO, 2022).
@@ -447,7 +448,517 @@ proposta para adicionar medição de qualidade ao seu monitoramento de fluxo em 
 
 <h2>Entrega de Valor</h2>
 
+<h4>Eficiência de fluxo</h4> 
+
+- **ID:** M019.
+
+- **Descrição:** Mede quanto do tempo total de fluxo é gasto em atividades de trabalho
+que agregam valor versus esperando entre etapas.
+
+- **Fórmula de Cálculo:** Tempo ativo total / tempo de fluxo.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:**  77.93%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+
+<h4>Previsibilidade de fluxo</h4> 
+
+- **ID:** M020.
+
+- **Descrição:** Quanto do tempo total de fluxo é gasto
+em atividades de trabalho que agregam
+valor versus esperando entre etapas.
+
+- **Fórmula de Cálculo:** Tempo total de atividade / Tempo de fluxo.
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:**  68.27%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Valor presente líquido por esforço</h4> 
+
+- **ID:** M021.
+
+- **Descrição:** Valor de lucratividade por esforço.
+
+- **Fórmula de Cálculo:** Valor Presente Líquido / Esforço.
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:**  55.86%.
+
+- **Exemplos de Aplicação:** À medida que foi implementado o Scrum Empresarial, a princípio, definiu-se a
+produtividade da empresa como única medida razoável, que pode ser medida como ‘valor presente líquido por esforço’ (GREENING, 2010).
+
+- **Referências:** (GREENING, 2010).
+
+<h4>Valor comercial por esforço</h4> 
+
+- **ID:** M022.
+
+- **Descrição:** Aqui é indicado como lançamentos
+principais mais frequentes em relação
+ao esforço de trabalho.
+
+- **Fórmula de Cálculo:** Número de lançamentos principais em um ano
+/ Horas por pessoa.
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:**  55.17%.
+
+- **Exemplos de Aplicação:** Foi inclusa em um modelo de medições elaborado durante
+workshops com especialistas da indústria e pesquisadores para ser aplicável a projetos
+de qualquer tamanho, complexidade e escopo (HEIDENBERG et al., 2013).
+
+- **Referências:** (HEIDENBERG et al., 2013; SCRUM@SCALE, 2022).
+
+
+<h4>Net Promoter Score (NPS)</h4> 
+
+- **ID:** M023.
+
+- **Descrição:** Feedback do usuário/cliente.
+
+- **Fórmula de Cálculo:** Calculado ao perguntar aos clientes se eles recomendariam o produto a colegas em uma escala de 0 a 10. As respostas são categorizadas como detratores (0-6), neutros (7-8) e promotores (9-10). Por fim, o percentual total de detratores é subtraído do percentual de promotores para determinar o NPS.
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:**  55.17%.
+
+- **Exemplos de Aplicação:** Em (LAANTI, 2014), foram examinadas as características do escalonamento ágil, no qual o feedback do usuário é fundamental para o sucesso do produto e, portanto, a ‘NPS’ também tem importância como métrica cumulativa primária baseada em fluxo que se
+correlaciona com sucesso empresarial no ágil em larga escala.
+
+- **Referências:** (LAANTI, 2014).
+
 <h2>Produtividade</h2>
+
+<h4>Velocidade</h4> 
+
+- **ID:** M024.
+
+- **Descrição:** Mede a quantidade de trabalho que uma equipe de desenvolvimento
+consegue concluir em um ciclo de trabalho. Ela é calculada somando os pontos de
+história ou outras unidades de medida de todas as tarefas concluídas durante o ciclo
+de trabalho. A velocidade fornece uma visão da produtividade da equipe e ajuda a
+estimar a capacidade de entrega futura, permitindo um planejamento mais preciso e
+a identificação de tendências ao longo do tempo.
+
+- **Fórmula de Cálculo:** Quantidade de pontos de história completados
+para itens de trabalho de um tipo ao longo de um
+período de tempo.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 93.79%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição de tempo de ciclo relacionada a agilidade usada para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária.
+Ao considera-la, foi possível obter feedback se os projetos estivessem começando
+a enfrentar desafios desnecessários por meio de métricas de produtividade como
+esta (BROWN, 2011). Ao trabalhar com grandes organizações contendo dezenas
+ou centenas de equipes, Greening (GREENING, 2015) apontou ‘velocidade’ como
+a métrica de produtividade mais comum, pois trata-se da taxa na qual a equipe
+conclui recursos (GREENING, 2015).
+
+- **Referências:** (BROWN, 2011; GREENING, 2015; STETTINA; SCHOEMAKER,
+2018; SAFE, 2022).
+
+
+<h4>Impedimentos</h4> 
+
+- **ID:** M025.
+
+- **Descrição:** Qualquer ‘perda de tempo’ devido a um defeito ou obstáculo que
+prejudique a produtividade.
+
+- **Fórmula de Cálculo:** Número de horas que não produzem resultados tangíveis.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 93.79%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+
+<h4>Tarefas bloqueadas</h4> 
+
+- **ID:** M026.
+
+- **Descrição:** Esta métrica rastreia quantas tarefas foram impedidas de avançar
+devido a bloqueios ou impedimentos, proporcionando uma visão clara dos obstáculos
+frequentes que afetam o fluxo de trabalho e a produtividade da equipe. Ela é útil para
+identificar áreas problemáticas que precisam de atenção para melhorar a eficiência e
+o fluxo do processo.
+
+- **Fórmula de Cálculo:** Número de tarefas bloqueadas durante um período de tempo
+específico.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 93.10%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição relacionada a agilidade usada para o processo escalável
+de entrega ágil (Scrum e XP) de uma organização bancária. Ao considera-la, foi
+possível obter feedback se os projetos estivessem começando a enfrentar desafios
+desnecessários por meio de métricas como esta (BROWN, 2011).
+
+- **Referências:** (BROWN, 2011).
+
+
+
+<h4>Eficiência</h4> 
+
+- **ID:** M027.
+
+- **Descrição:** Indica o quão bem usa-se a equipe em comparação com a capacidade
+máxima.
+
+- **Fórmula de Cálculo:** AH / C. Onde AH representa as horas reais gastas produzindo
+resultados tangíveis e C é o número ideal de horas que uma equipe pode entregar.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 86.21%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+
+<h4>Gráfico burndown</h4> 
+
+- **ID:** M028.
+
+- **Descrição:** Mede o progresso da sprint e fornece indicadores do processo de trabalho
+da equipe.
+
+- **Fórmula de Cálculo:** Marca os dias da sprint no eixo horizontal e os pontos
+planejados para compor a sprint no eixo vertical, começando dos pontos máximos
+da sprint (velocidade da equipe) até zero.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 82.76%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição de produtividade relacionada a agilidade usada para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária.
+Ao considera-la, foi possível obter feedback se os projetos estivessem começando a
+enfrentar desafios desnecessários por meio de métricas de produtividade como esta
+(BROWN, 2011).
+
+- **Referências:** (BROWN, 2011).
+
+
+<h4>Gráfico de burnup</h4> 
+
+- **ID:** M029.
+
+- **Descrição:** Mede o progresso com base nas horas ou pontos restantes de cima para
+baixo. Mede o progresso do lançamento e fornece indicadores do processo de trabalho
+da equipe.
+
+- **Fórmula de Cálculo:** Marca os dias da sprint no eixo horizontal e os pontos
+planejados para compor a sprint no eixo vertical, começando dos pontos máximos
+da sprint (velocidade da equipe) até zero.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 73.79%.
+
+- **Exemplos de Aplicação:** Em um resumo de estudo de caso relatado por Korson
+(KORSON, 2015), utilizar o ‘gráfico de burnup’ como indicador de aumento de escopo
+para realização de correções foi essencial para o andamento e conclusão do projeto
+de um produto que consiste em um conjunto de aplicações web externas usadas
+diretamente por clientes e uma empresa do setor financeiro.
+
+- **Referências:** (BROWN, 2011; KORSON, 2015).
+
+
+<h4>Pulso de commit</h4> 
+
+- **ID:** M030.
+
+- **Descrição:** Mede como a integração contínua
+está dentro das sprints.
+
+- **Fórmula de Cálculo:** Número de dias entre commits.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 47.59%.
+
+- **Exemplos de Aplicação:** Foi inclusa em um modelo de medições elaborado durante
+workshops com especialistas da indústria e pesquisadores para ser aplicável a projetos
+de qualquer tamanho, complexidade e escopo (HEIDENBERG et al., 2013).
+
+- **Referências:** (HEIDENBERG et al., 2013).
+
+<h4>Custo restante</h4> 
+
+- **ID:** M031.
+
+- **Descrição:** Mede o custo restante para a conclusão da tarefa.
+
+- **Fórmula de Cálculo:** Custo da tarefa - Custo da despesa.
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 48.27%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+<h4>Custo das despesas</h4> 
+
+- **ID:** M032.
+
+- **Descrição:** Porcentagem do custo gasto durante a implementação da tarefa.
+
+- **Fórmula de Cálculo:** (Custo das despesas / Custo da tarefa) ∗ 100.
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+
+<h4>Custo disponível</h4> 
+
+- **ID:** M033.
+
+- **Descrição:** Mede o custo disponível para subtarefas ou tarefas principais.
+
+- **Fórmula de Cálculo:** Custo da tarefa - Custo da despesa.
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+
+<h4>Custo para cada função</h4> 
+
+- **ID:** M034.
+
+- **Descrição:** Mede o custo total da tarefa dividido pelo número de funções da tarefa.
+
+- **Fórmula de Cálculo:** Custo da tarefa / Número de funções da tarefa.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+<h4>Aceleração</h4> 
+
+- **ID:** M035.
+
+- **Descrição:** Uma métrica de produtividade que também refletirá a eficiência com que a equipe se adapta às mudanças.
+
+- **Fórmula de Cálculo:** (VelocidadeSprint_X - VelocidadeSprint_Y) / VelocidadeSprint_Y.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 53.79%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (LIYANAGE, 2014).
+
+
+<h4>Pontos de função homem-ano</h4> 
+
+- **ID:** M036.
+
+- **Descrição:** 
+
+- **Fórmula de Cálculo:** Quantidade de trabalho realizado por um indivíduo ao longo do ano.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 53.10%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição de produtividade relacionada a agilidade usada para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária.
+Ao considera-la, foi possível obter feedback se os projetos estivessem começando a
+enfrentar desafios desnecessários por meio de métricas de produtividade como esta
+(BROWN, 2011).
+
+- **Referências:** (BROWN, 2011).
+
+<h4>Funções restantes</h4> 
+
+- **ID:** M037.
+
+- **Descrição:** Total de funções de uma tarefa subtraído das funções já concluídas dessa mesma tarefa.
+
+- **Fórmula de Cálculo:** Funções de tarefa - Funções de tarefa concluídas.
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 53.10%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+
+<h4>Contagem de dependências (Em inglês : Dependency Count)</h4> 
+
+- **ID:** M038.
+
+- **Descrição:** Dependência entre equipes onde bugs e atrasos afetam dependentes imediatos.
+
+- **Fórmula de Cálculo:** Número de equipes dependentes imediatas onde há bugs e atrasos.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 66.21%.
+
+- **Exemplos de Aplicação:** Ao trabalhar com grandes organizações contendo dezenas
+ou centenas de equipes, Greening (GREENING, 2015) apontou o ‘contagem de dependências’ como
+métrica importante para uma estrutura Scrum escalável.
+
+- **Referências:** (GREENING, 2015).
+
+<h4>Desvio de velocidade (Em inglês: Velocity Deviation</h4> 
+
+- **ID:** M039.
+
+- **Descrição:** Mede a estabilidade da velocidade.
+
+- **Fórmula de Cálculo:** σ(V )/μ(V ). Onde μ(V ) é a velocidade esperada (média
+velocidade baseada em um certo número de sprints anteriores)
+e σ(V ) é o desvio padrão da velocidade.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 66.90%.
+
+- **Exemplos de Aplicação:** Ao trabalhar com grandes organizações contendo dezenas
+ou centenas de equipes, Greening (GREENING, 2015) apontou o ‘desvio de velocidade’ como
+métrica importante para uma estrutura Scrum escalável.
+
+- **Referências:** (GREENING, 2015).
+
+<h4>Frequência de implantação</h4> 
+
+- **ID:** M040.
+
+- **Descrição:** Mede a produtividade e a velocidade do fluxo dos recursos DevOps de uma organização.
+
+- **Fórmula de Cálculo:** Número de implantações em um determinado período.
+
+- **Etapa do Ciclo de Vida:** Implantação.
+
+- **Popularidade na Indústria:** 65.52%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Funções concluídas</h4> 
+
+- **ID:** M041.
+
+- **Descrição:** Porcentagem de funções executadas durante a implementação da tarefa.
+
+- **Fórmula de Cálculo:** (Funções concluídas da tarefa / Total de funções da tarefa) ∗ 100.
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 66.27%.
+
+- **Exemplos de Aplicação:** Thawaba et al. (THAWABA et al., 2020) propuseram
+um novo mecanismo de medição para o desenvolvimento de software que melhora
+a avaliação da confiabilidade e a tomada de decisões durante os processos de desenvolvimento
+ágil de sistemas críticos de segurança utilizando SAFe. Desse modo,
+para auxiliar a equipe de gerenciamento ágil em todas as fases do projeto em um
+departamento de cirurgia médica, foi proposto um novo mecanismo de medição no
+qual métricas de realização como esta foram definidas para demarcar a realização
+segura de todas as tarefas após o teste.
+
+- **Referências:** (THAWABA et al., 2020).
+
+<h4>Velocidade planejada</h4> 
+
+- **ID:** M042.
+
+- **Descrição:** Levantamento da velocidade na qual a equipe esperar desempenhar em uma sprint.
+
+- **Fórmula de Cálculo:** Quantidade de trabalho que uma equipe espera concluir durante uma sprint.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 66.27%.
+
+- **Exemplos de Aplicação:** Stettina e Schoemaker (STETTINA; SCHOEMAKER, 2018) apresentaram resultados de um estudo de caso múltiplo que citou abordagens de métricas como ‘velocidade planejada’ em grandes organizações aplicando métodos ágeis em seus portfólios de gestão ágil.
+
+- **Referências:** (STETTINA; SCHOEMAKER, 2018).
+
 
 <h2>Sustentabilidade de Práticas Ágeis</h2>
 
@@ -457,8 +968,8 @@ proposta para adicionar medição de qualidade ao seu monitoramento de fluxo em 
 <div>
   <h2>Contatos</h2>
   <div class="card">
-  <p><strong>Email:</strong> renato.vmenezes@ufrpe.br</p>
-  <p><strong>LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
+  <p><strong><i class="bi bi-envelope"></i> Email:</strong> renato.vmenezes@ufrpe.br</p>
+  <p><strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
 </div>
 
 </div>

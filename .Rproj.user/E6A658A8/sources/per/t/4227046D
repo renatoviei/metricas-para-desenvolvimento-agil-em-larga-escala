@@ -1,9 +1,9 @@
 {
     "id": "4227046D",
-    "path": "C:/Users/tm_re/Desktop/Mestrado/Dissertação/catalogo-de-metricas-digital-local/about.Rmd",
+    "path": "C:/Users/tm_re/Desktop/Mestrado/Dissertação/metricas-para-desenvolvimento-agil-em-larga-escala/about.Rmd",
     "project_path": "about.Rmd",
     "type": "r_markdown",
-    "hash": "591170400",
+    "hash": "3327154107",
     "contents": "",
     "dirty": false,
     "created": 1724602463228.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "25,56",
-        "scrollLine": "16"
+        "cursorPosition": "8,121",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1724719534,
+    "lastKnownWriteTime": 1724790030,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1724719534468,
+    "last_content_update": 1724790030670,
     "read_only": false,
     "read_only_alternatives": []
 }
