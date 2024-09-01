@@ -1,0 +1,72 @@
+---
+title: "Referências do Catálogo"
+output: 
+  html_document:
+    css: style.css
+    self_contained: true
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+<div class="container">
+
+<p>BROWN, A. W. A case study in agile-at-scale delivery. In: SPRINGER. International Conference on Agile Software Development. [S.l.], 2011. p. 266–281.</p>
+
+<p>COPADO, T. How to Optimize Flow Metrics Quality in Scaled Agile Framework (SAFe). 2022. <https://www.copado.com/devops-hub/blog/how-to-optimize-flow-metrics-quality>. (accessed 4 January 2023).</p>
+
+<p>GRIMALDI, P. et al. An agile, measurable and scalable approach to deliver software applications in a large enterprise. International Journal of Agile Systems and Management, Inderscience Publishers (IEL), v. 9, n. 4, p. 326–339, 2016.</p>
+
+<p>GREENING, D. R. Agile enterprise metrics. In: IEEE. 2015 48th Hawaii International Conference on System Sciences. [S.l.], 2015. p. 5038–5044.</p>
+
+<p>GREENING, D. R. Enterprise scrum: Scaling scrum to the executive level. In: IEEE. 2010 43rd Hawaii International Conference on System Sciences. [S.l.], 2010. p. 1–10.</p>
+
+<p>HEIDENBERG, J. et al. A metrics model to measure the impact of an agile transformation in large software development organizations. In: SPRINGER. Int. Conference on Agile Software Development. [S.l.], 2013. p. 165–179.</p>
+
+<p>KORSON, T. Cash-in Comfort. 2015. <https://less.works/case-studies/cash-in-comfort>. (accessed 4 January 2023).</p>
+
+<p>LAANTI, M. Characteristics and principles of scaled agile. In: SPRINGER. International
+Conference on Agile Software Development. [S.l.], 2014. p. 9–20.</p>
+
+<p>LIYANAGE, J. R. Lean Agile Metrics for Scaled Agile Systems. 2014. <https://www.methodsandtools.com/archive/leanagilemetrics.php>. (accessed 4 January 2023).</p>
+
+<p>PETERSEN, K. An empirical study of lead-times in incremental and agile software development. In: SPRINGER. International Conference on Software Process. [S.l.], 2010. p. 345–356.</p>
+
+<p>PETERSEN, K.; WOHLIN, C. Measuring the flow in lean software development. Software:
+Practice and experience, Wiley Online Library, v. 41, n. 9, p. 975–996, 2011.</p>
+
+<p>RAZZAK, M. A. et al. Transition from plan driven to safe®: periodic team self-assessment. In: SPRINGER. International Conference on Product-Focused Software Process Improvement. [S.l.], 2017. p. 573–585.</p>
+
+<p>REINERTSEN, D. G. The principles of product development flow: second generation lean
+product development. [S.l.]: Celeritas Redondo Beach, 2009. v. 62.</p>
+
+<p>SAFE. Measure and Grow. 2022. <https://scaledagileframework.com/measure-and-grow/>. (accessed 4 January 2023).</p>
+
+<p>SCRUM@SCALE. The Scrum At Scale® Guide. The Definitive Guide to the Scrum@Scale Framework. 2022. <https://www.scrumatscale.com/scrum-at-scale-guide-online/>. (accessed 4 January 2023).</p>
+
+<p>STARON, M.; MEDING, W.; CAIMAN, M. Improving completeness of measurement systems for monitoring software development workflows. In: SPRINGER. International Conference on Software Quality. [S.l.], 2013. p. 230–243.</p>
+
+<p>STARON, M.; MEDING, W.; PALM, K. Release readiness indicator for mature agile and lean software development projects. In: SPRINGER. International Conference on Agile Software Development. [S.l.], 2012. p. 93–107.</p>
+
+<p>STETTINA, C. J.; SCHOEMAKER, L. Reporting in agile portfolio management: Routines, metrics and artefacts to maintain an effective oversight. In: SPRINGER, CHAM. International Conference on Agile Software Development. [S.l.], 2018. p. 199–215.</p>
+
+<p>TABIB, R. Need 4 speed: leverage new metrics to boost your velocity without compromising on quality. In: IEEE. 2013 Agile Conference. [S.l.], 2013. p. 117–120.</p>
+
+<p>TESSAROLO, F. et al. Developing ambient assisted living technologies exploiting potential of user-centred co-creation and agile methodology: the captain project experience. Journal of Ambient Intelligence and Humanized Computing, Springer, p. 1–16, 2022. Citado 7 vezes nas páginas 22, 23, 24, 25, 26, 29 e 30.</p>
+
+<p>THAWABA, A. A. et al. A mechanism to support agile frameworks enhancing reliability assessment for scs development: a case study of medical surgery departments. In: SPRINGER. International Conference on Soft Computing and Data Mining. [S.l.], 2020. p. 66–76.</p>
+
+<p>TRIPATHI, N. et al. Scaling kanban for software development in a multisite organization: challenges and potential solutions. In: SPRINGER. International Conference on Agile Software Development. [S.l.], 2015. p. 178–190.</p>
+
+
+<!-- Seção de Contato -->
+<div>
+  <h2>Contatos</h2>
+  <div class="card">
+  <p><strong><i class="bi bi-envelope"></i> Email:</strong> renato.vmenezes@ufrpe.br</p>
+  <p><strong><i class="bi bi-linkedin"></i> LinkedIn:</strong> [https://www.linkedin.com/in/renatovmenezes/](https://www.linkedin.com/in/renatovmenezes/)</p>
+</div>
+
+</div>
+
+
+</div>

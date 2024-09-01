@@ -17,7 +17,7 @@ output:
 <h2>Métricas</h2>
 
 
-<p>Esta página apresenta as 71 métricas do catálogo seguindo o template proposto. Elas estão categorizadas em subseções por cada meta de negócio identificada na modelagem (GQM) da pesquisa [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). As metas de negócio representam os objetivos nos quais as organizações ágeis de grande escala buscam alcançar e monitorar com a aplicação das métricas.</p>
+<p>Esta página apresenta as 71 métricas do catálogo seguindo o template proposto. Elas estão categorizadas em subseções por cada meta de negócio identificada na modelagem (GQM) da pesquisa [(veja aqui)](https://sol.sbc.org.br/index.php/cibse/article/view/28442). As metas de negócio responsividade aos clientes, entrega de valor, produtividade, sustentabilidade de práticas ágeis e qualidade do produto representam os objetivos nos quais as organizações ágeis de grande escala buscam alcançar e monitorar com a aplicação das métricas.</p>
 
 <h2>Responsividade aos Clientes</h2>
 
@@ -962,7 +962,629 @@ segura de todas as tarefas após o teste.
 
 <h2>Sustentabilidade de Práticas Ágeis</h2>
 
+<h4>Work In Progress (WIP)</h4> 
+
+- **ID:** M043.
+
+- **Descrição:** A equipe pode usar a métrica ‘Work In Progress’ (WIP) para fornecer
+transparência em seu progresso, ajustando potencialmente seu WIP de acordo com
+as necessidades e melhorando seu fluxo.
+
+- **Fórmula de Cálculo:** Quantidade máxima de trabalho que pode existir em cada
+status de um fluxo de trabalho.
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 94.48%.
+
+- **Exemplos de Aplicação:** Focado nos desafios na fase de dimensionamento do
+Kanban em uma organização envolvida no desenvolvimento de software multisite, o
+trabalho de Tripathi et al. (TRIPATHI et al., 2015) relatou a definição de limites de
+WIP para o backlog da área de produto e as equipes de desenvolvimento por acordo
+mútuo. O limite de WIP é definido para cada backlog de produto da área, definido
+por um acordo comum entre os proprietários do produto da área e o representante
+da equipe (TRIPATHI et al., 2015). Também no resumo de estudo de caso relatado
+por Korson (KORSON, 2015), estabelecer um limite de WIP para realização de
+correções foi essencial para o andamento e conclusão do projeto de um produto que
+consiste em um conjunto de aplicações web externas usadas diretamente por clientes
+e uma empresa do setor financeiro.
+
+- **Referências:** (TRIPATHI et al., 2015; KORSON, 2015).
+
+<h4>Eficácia</h4> 
+
+- **ID:** M044.
+
+- **Descrição:** Indica o quão bem a equipe está planejando.
+
+- **Fórmula de Cálculo:** AH / PH. Onde PH são as horas estimadas para cada sprint para entregar o proposto e AH são as horas reais gastas produzindo resultados tangíveis.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 67.59%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Carga de fluxo</h4> 
+
+- **ID:** M045.
+
+- **Descrição:** Mede quantos itens estão atualmente no sistema. Também usa o limite WIP para manter um número saudável e limitado de itens ativos.
+
+- **Fórmula de Cálculo:** Um Diagrama de Fluxo Cumulativo (CFD) é uma ferramenta amplamente utilizada para representar visualmente o fluxo de trabalho ao longo do tempo. Ilustra o trabalho em um determinado estado, a velocidade com que novos itens entram na fila de trabalho (taxa de chegada) e a velocidade com que são concluídos (taxa de saída).
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 65.52%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Envolvimento dos funcionários</h4> 
+
+- **ID:** M046.
+
+- **Descrição:** Mede o quão motivados os indivíduos
+sentem e quão ativamente engajados eles estão
+em apoiar os objetivos e valores da organização.
+
+- **Fórmula de Cálculo:** Alguns usam uma pesquisa anual, enquanto outros contam com uma Employee Net Promoter Score (eNPS), perguntando aos funcionários qual a probabilidade de eles devem recomendar seu empregador em uma escala de 10 pontos.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 62.07%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Desperdício</h4> 
+
+- **ID:** M047.
+
+- **Descrição:** Indica o desperdício equivalente de dinheiro.
+
+- **Fórmula de Cálculo:** (Delta de precisão da estimativa ∗ Custo horário virtual real) / 100.
+.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 53.10%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade dos recursos e custos que monitoraram e geraram
+impactos na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Pulso de equipe ágil</h4> 
+
+- **ID:** M048.
+
+- **Descrição:** Envolve avaliações casuais regulares da equipe para entender suas visões sobre a adoção de práticas de desenvolvimento iterativas, planejamento de dois níveis, visão compartilhada, integração contínua e uma abordagem baseada em equipe.
+
+- **Fórmula de Cálculo:** Avaliações regulares com as equipes para entender suas opiniões sobre a adoção de práticas de desenvolvimento iterativas. Por meio de pesquisas informais.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+dimensões de medição relacionadas a negócio e agilidade usadas para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária. Além disso, para auxiliar no processo de entrega ágil do banco, uma abordagem de pesquisa informal junto a equipe foi
+aplicada regularmente para medir o ‘pulso de equipe ágil’, constituído por medições da
+percepção de adoção da prática de desenvolvimento iterativo, planejamento em dois níveis,
+visão compartilhada, integração contínua e abordagem baseada em equipe (BROWN, 2011).
+
+- **Referências:** (BROWN, 2011).
+
+<h4>Delta de precisão da estimativa</h4> 
+
+- **ID:** M049.
+
+- **Descrição:** Indica o quão bem a equipe está planejando.
+
+- **Fórmula de Cálculo:** (PH – AH) / PH. Onde PH são as horas estimadas para cada sprint para entregar o proposto e AH são as horas reais gastas produzindo resultados tangíveis.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Eficácia percebida</h4> 
+
+- **ID:** M050.
+
+- **Descrição:** Medição da eficácia percebida de um processo específico de desenvolvimento ágil em larga escala criado para o chamado Projeto CAPTAIN, com base nos conceitos de Design Thinking, Lean e Scrum.
+
+- **Fórmula de Cálculo:** Compilada por meio de pesquisas realizadas com a equipe e stakeholders, onde as respostas são avaliadas em uma escala para medir aspectos como trabalho em equipe, requisitos coleta, planejamento, qualidade da metodologia, cultura, compartilhamento de conhecimento, percepção geral do processo, moral da equipe, engajamento e satisfação dos participantes.
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 51.72%.
+
+- **Exemplos de Aplicação:** Tessarolo et al. (TESSAROLO et al., 2022) apresentaram um framework baseado em conceitos de
+Design Thinking, Lean e Scrum dirigido para o desenvolvimento de tecnologias assistivas
+avançadas no setor de saúde e bem-estar. Além disso, o trabalho utilizou uma maneira de
+medir a eficácia percebida desse processo de desenvolvimento em larga escala, tanto pela
+equipe de desenvolvimento quanto pelas demais partes interessadas do projeto CAPTAIN.
+
+- **Referências:** (TESSAROLO et al., 2022).
+
+<h4>Custo por hora virtual planejado</h4> 
+
+- **ID:** M051.
+
+- **Descrição:** Relação entre o modelo de custo aplicado pelo fornecedor para a empresa e as horas estimadas para cada sprint entregar o proposto.
+
+- **Fórmula de Cálculo:** CM / PH. Onde CM é o modelo de custo aplicado pelo fornecedor para a empresa relacionada a economias de escala e PH são as horas estimadas para cada sprint entregar o proposto.
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 48.27%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Indicador de integridade do sistema de medição</h4> 
+
+- **ID:** M052.
+
+- **Descrição:** Avaliação da completude do sistema de medição para monitoramento do fluxo de trabalho, uma vez que dependências temporais e de processo são usadas entre atividades de processo.
+
+- **Fórmula de Cálculo:** (#Atividades com medidas  / #Atividades no total) ∗ 100%.
+
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 46.21%.
+
+- **Exemplos de Aplicação:** Staron et al. (STARON; MEDING; CAIMAN, 2013) também apresentaram e avaliaram industrialmente padrões de medição para monitorar fluxos de
+trabalho no desenvolvimento ágil de software do tipo Lean baseados na qualidade da informação e na ISO/IEC 15939, que descreve como os processos de medição devem ser
+executados em organizações de desenvolvimento de software e sistemas. O método é adequado para avaliação da completude de sistemas de medição para
+monitoramento de fluxos de trabalho, visto que são usadas dependências temporais e de processo entre as atividades de um processo (STARON; MEDING; CAIMAN, 2013). Em resumo, os principais princípios do método são: (1) criar um modelo de processo do fluxo de trabalho existente, (2) vincular as medidas apropriadas e necessárias às atividades neste processo, (3) vincular a escala de tempo
+ao processo e calcular a completude das informações fornecidas pelos sistemas de medição. Para realizar a avaliação de quão completo é o sistema de medição, foi proposta a métrica ‘indicador de integridade do sistema de medição’.
+
+- **Referências:** (STARON; MEDING; CAIMAN, 2013).
+
+<h4>Custo real virtual por hora</h4> 
+
+- **ID:** M053.
+
+- **Descrição:** Relação entre o modelo de custo aplicado pelo fornecedor para a empresa e as horas reais para cada sprint entregar o proposto.
+
+- **Fórmula de Cálculo:** CM / AH. Onde CM é o modelo de custo aplicado pelo fornecedor para a empresa relacionada a economias de escala e AH são as horas reais gastas na produção de resultados tangíveis.
+
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 45.52%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Custo delta</h4> 
+
+- **ID:** M054.
+
+- **Descrição:** Mede a economia de custos devido ao desvio entre os custos reais e planejados.
+
+- **Fórmula de Cálculo:** (Custo horário virtual real - Custo horário virtual planejado) / 100.
+
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 40.70%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
+<h4>Custo delta</h4> 
+
+- **ID:** M054.
+
+- **Descrição:** Mede a economia de custos devido ao desvio entre os custos reais e planejados.
+
+- **Fórmula de Cálculo:** (Custo horário virtual real - Custo horário virtual planejado) / 100.
+
+
+- **Etapa do Ciclo de Vida:** Viabilidade do produto.
+
+- **Popularidade na Indústria:** 40.70%.
+
+- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
+um caso real e complexo de uma implementação do SAFe em uma grande empresa,
+centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
+impactos nos prazos de entrega do produto e na redução de custos tais como esta.
+
+- **Referências:** (GRIMALDI et al., 2016).
+
 <h2>Qualidade do Produto</h2>
+
+
+<h4>Cobertura de testes unitários por histórias</h4> 
+
+- **ID:** M055.
+
+- **Descrição:** Mede a extensão em que os testes unitários cobrem as funcionalidades
+descritas nas histórias de usuário. Esta métrica avalia a qualidade e a robustez do
+código ao garantir que as funcionalidades implementadas tenham testes unitários
+associados, validando seu comportamento esperado.
+
+- **Fórmula de Cálculo:** Cobertura de testes unitários / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 73.79%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘cobertura de testes unitários por histórias’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+
+<h4>Dívida técnica</h4> 
+
+- **ID:** M056.
+
+- **Descrição:** Indicador de decisões erradas tomadas em relação aos requisitos, design
+ou código.
+
+- **Fórmula de Cálculo:** Duas maneiras: (i) Abordagens baseadas em ferramentas
+como SonarQube e outros; ou (ii) a equipe deve discutir e selecionar um conjunto
+dos resultados de dívida técnica mais dolorosos e começar a rastreá-los como parte
+de suas reuniões retrospectivas.
+
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 73.10%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (LIYANAGE, 2014).
+
+<h4>Número de problemas externos</h4> 
+
+- **ID:** M057.
+
+- **Descrição:** Mede o número total de relatórios de problemas externos gerados durante
+um período de tempo após o lançamento de uma versão específica.
+
+- **Fórmula de Cálculo:** Número de problemas externos relatados de uma determinada
+versão.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 73.10%.
+
+- **Exemplos de Aplicação:** Foi inclusa em um modelo de medições elaborado durante
+workshops com especialistas da indústria e pesquisadores para ser aplicável a projetos
+de qualquer tamanho, complexidade e escopo (HEIDENBERG et al., 2013). ‘Número
+de problemas externos’ leva em consideração o aspecto da qualidade do produto
+desenvolvido, melhorias em outras áreas não devem ocorrer em detrimento da
+qualidade do produto (HEIDENBERG et al., 2013).
+
+- **Referências:** (HEIDENBERG et al., 2013).
+
+<h4>Dias abertos com problemas externos</h4> 
+
+- **ID:** M058.
+
+- **Descrição:** Mede o número médio de dias que os relatórios de problemas externos
+permaneceram não resolvidos da criação à resolução.
+
+- **Fórmula de Cálculo:** Data de resolução dos relatórios de problemas - Data de
+criação dos relatórios de problemas.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 72.41%.
+
+- **Exemplos de Aplicação:** Foi inclusa em um modelo de medições elaborado durante
+workshops com especialistas da indústria e pesquisadores para ser aplicável a projetos
+de qualquer tamanho, complexidade e escopo (HEIDENBERG et al., 2013). ‘Dias
+abertos com problemas externos’ leva em consideração que se os problemas levarem
+consistentemente mais tempo para serem resolvidos, são indícios de que a qualidade
+do produto se deteriorou (HEIDENBERG et al., 2013).
+
+- **Referências:** (HEIDENBERG et al., 2013)
+
+<h4>Número de defeitos por história de usuário</h4> 
+
+- **ID:** M059.
+
+- **Descrição:** Mede a quantidade de número de defeitos por história de usuário.
+
+- **Fórmula de Cálculo:** Número de defeitos / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 69.65%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘número de defeitos por história de usuário’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+<h4>Taxa de aprovação de testes</h4> 
+
+- **ID:** M060.
+
+- **Descrição:** Mede tendências na taxa de aprovação para conjuntos de testes automatizados.
+
+- **Fórmula de Cálculo:** Porcentagem de taxa de aprovação para conjunto de testes automatizados.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 67.59%.
+
+- **Exemplos de Aplicação:** Além das métricas nativas do SAFe, ‘taxa de aprovação de testes’ foi encontrada em uma
+proposta para adicionar medição de qualidade ao seu monitoramento de fluxo em um ambiente DevOps.
+
+- **Referências:** (COPADO, 2022).
+
+<h4>Taxa de aprovação em testes unitários por história de usuário</h4> 
+
+- **ID:** M061.
+
+- **Descrição:** Mede a aprovação para conjuntos de testes unitários por história de usuário.
+
+- **Fórmula de Cálculo:** Taxa de aprovação em testes unitários / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 65.58%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘taxa de aprovação em testes unitários por história de usuário’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+<h4>Número de desenvolvedores por recurso</h4> 
+
+- **ID:** M062.
+
+- **Descrição:** Mede a quantidade de desenvolvedores alocados por recurso.
+
+- **Fórmula de Cálculo:** Número de desenvolvedores / recurso.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 65.58%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘número de desenvolvedores por recurso’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+<h4>Taxa de falhas de mudanças</h4> 
+
+- **ID:** M063.
+
+- **Descrição:** Mede a eficiência do fluxo.
+ 
+
+- **Fórmula de Cálculo:** Porcentagem de alterações que exigem correção após a conclusão em produção.
+
+
+- **Etapa do Ciclo de Vida:** Manutenção.
+
+- **Popularidade na Indústria:** 64.14%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Taxa de defeitos por gravidade</h4> 
+
+- **ID:** M064.
+
+- **Descrição:** Mede a taxa de defeitos de software com relação a tipos de gravidade.
+ 
+
+- **Fórmula de Cálculo:** Número de defeitos (gravidade 1 ou 2…) em produção / 100.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 62.07%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição de qualidade relacionada a negócio  para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária. Ao considera-la, foi possível obter feedback se os projetos estivessem começando a
+enfrentar desafios desnecessários por meio de métricas de qualidade como esta (BROWN, 2011).
+
+- **Referências:** (BROWN, 2011).
+
+<h4>Tempo de restauração do serviço</h4> 
+
+- **ID:** M065.
+
+- **Descrição:** Métrica de tempo de fluxo para restauração da saúde do serviço/aplicação.
+ 
+
+- **Fórmula de Cálculo:** Quantidade de tempo de espera para restauração do serviço.
+
+
+- **Etapa do Ciclo de Vida:** Implantação.
+
+- **Popularidade na Indústria:** 61.38%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SAFE, 2022).
+
+<h4>Taxa de defeito</h4> 
+
+- **ID:** M066.
+
+- **Descrição:** Mede a tendência de defeitos de software.
+ 
+
+- **Fórmula de Cálculo:** Número de defeitos / 100.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 61.38%.
+
+- **Exemplos de Aplicação:** Um estudo de caso em uma organização bancária relatou
+uma dimensão de medição de qualidade relacionada a agilidade  para
+o processo escalável de entrega ágil (Scrum e XP) de uma organização bancária. Ao considera-la, foi possível obter feedback se os projetos estivessem começando a
+enfrentar desafios desnecessários por meio de métricas de qualidade como esta (BROWN, 2011).
+
+- **Referências:** (BROWN, 2011; SCRUM@SCALE, 2022).
+
+
+<h4>Tempo de inatividade do serviço</h4> 
+
+- **ID:** M067.
+
+- **Descrição:** Mede a indisponibilidade de um serviço.
+ 
+
+- **Fórmula de Cálculo:** Quantidade de tempo que um serviço específico ficou inativo.
+
+
+- **Etapa do Ciclo de Vida:** Implantação.
+
+- **Popularidade na Indústria:** 60.70%.
+
+- **Exemplos de Aplicação:** 
+
+- **Referências:** (SCRUM@SCALE, 2022).
+
+<h4>Taxa de defeito de entrada para taxa de defeito de saída</h4> 
+
+- **ID:** M068.
+
+- **Descrição:** Determina se a equipe pode corrigir mais bugs do que apenas aqueles descobertos durante os testes.
+ 
+
+- **Fórmula de Cálculo:** Defeitos de entrada / defeitos de saída.
+
+
+- **Etapa do Ciclo de Vida:** Teste.
+
+- **Popularidade na Indústria:** 53.79%.
+
+- **Exemplos de Aplicação:** Além das métricas nativas do SAFe, ‘taxa de defeito de entrada para taxa de defeito de saída’ foi encontrada em uma
+proposta para adicionar medição de qualidade ao seu monitoramento de fluxo em um ambiente DevOps.
+
+- **Referências:** (COPADO, 2022).
+
+
+<h4>Linhas de código por história de usuário</h4> 
+
+- **ID:** M070.
+
+- **Descrição:** Mede a quantidade de linhas de código por história de usuário. Esta métrica proporciona uma maior compreensão da complexidade da história.
+ 
+
+- **Fórmula de Cálculo:** Linhas de código / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 42.07%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘linhas de código por história de usuário’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+
+<h4>Linhas de código por história de usuário</h4> 
+
+- **ID:** M070.
+
+- **Descrição:** Mede a quantidade de linhas de código por história de usuário. Esta métrica proporciona uma maior compreensão da complexidade da história.
+ 
+
+- **Fórmula de Cálculo:** Linhas de código / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 42.07%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘linhas de código por história de usuário’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+
+<h4>Número de arquivos por história de usuário</h4> 
+
+- **ID:** M071.
+
+- **Descrição:** Mede a quantidade de arquivos por história de usuário. Esta métrica proporciona uma maior compreensão da complexidade da história.
+ 
+
+- **Fórmula de Cálculo:** Número de arquivos / história de usuário.
+
+
+- **Etapa do Ciclo de Vida:** Desenvolvimento.
+
+- **Popularidade na Indústria:** 39.31%.
+
+- **Exemplos de Aplicação:** Tabib (TABIB, 2013) expôs em seu relato de experiência
+métricas essenciais como ‘número de arquivos por história de usuário’ que levaram
+uma grande organização a capacitar a colaboração e alinhamento por meio da
+transparência, fornecendo visão sobre qualidade e risco.
+
+- **Referências:** (TABIB, 2013).
+
+
+<br>
+  <a href=references.html class="button">Ver Referências</a>
+<br>
+<br>
 
 <!-- Seção de Contato -->
 <div>
