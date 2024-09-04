@@ -1204,25 +1204,6 @@ impactos nos prazos de entrega do produto e na redução de custos tais como est
 
 - **Referências:** (GRIMALDI et al., 2016).
 
-<h4>Custo delta</h4> 
-
-- **ID:** M054.
-
-- **Descrição:** Mede a economia de custos devido ao desvio entre os custos reais e planejados.
-
-- **Fórmula de Cálculo:** (Custo horário virtual real - Custo horário virtual planejado) / 100.
-
-
-- **Etapa do Ciclo de Vida:** Viabilidade do produto.
-
-- **Popularidade na Indústria:** 40.70%.
-
-- **Exemplos de Aplicação:** Grimaldi et al. (GRIMALDI et al., 2016) trataram de
-um caso real e complexo de uma implementação do SAFe em uma grande empresa,
-centrado e enriquecido com métricas de sustentabilidade do planejamento sobre a produtividade que monitoraram e geraram
-impactos nos prazos de entrega do produto e na redução de custos tais como esta.
-
-- **Referências:** (GRIMALDI et al., 2016).
 
 <h2>Qualidade do Produto</h2>
 
