@@ -51,7 +51,7 @@ product development. [S.l.]: Celeritas Redondo Beach, 2009. v. 62.</p>
 
 <p>TABIB, R. Need 4 speed: leverage new metrics to boost your velocity without compromising on quality. In: IEEE. 2013 Agile Conference. [S.l.], 2013. p. 117–120.</p>
 
-<p>TESSAROLO, F. et al. Developing ambient assisted living technologies exploiting potential of user-centred co-creation and agile methodology: the captain project experience. Journal of Ambient Intelligence and Humanized Computing, Springer, p. 1–16, 2022. Citado 7 vezes nas páginas 22, 23, 24, 25, 26, 29 e 30.</p>
+<p>TESSAROLO, F. et al. Developing ambient assisted living technologies exploiting potential of user-centred co-creation and agile methodology: the captain project experience. Journal of Ambient Intelligence and Humanized Computing, Springer, p. 1–16, 2022.</p>
 
 <p>THAWABA, A. A. et al. A mechanism to support agile frameworks enhancing reliability assessment for scs development: a case study of medical surgery departments. In: SPRINGER. International Conference on Soft Computing and Data Mining. [S.l.], 2020. p. 66–76.</p>
 
